@@ -1,0 +1,25 @@
+{
+  "description" : "Allow ssh to any host and updates",
+  "name" : "iTerm",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1631889992.160342,
+      "modificationDate" : 1631889992.160342,
+      "owner" : "me",
+      "process" : "\/Applications\/iTerm.app\/Contents\/MacOS\/iTerm2",
+      "remote-domains" : "iterm2.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1631889334.2283559,
+      "modificationDate" : 1631889949.7750521,
+      "owner" : "me",
+      "ports" : "22",
+      "process" : "\/Applications\/iTerm.app\/Contents\/MacOS\/iTerm2",
+      "protocol" : "tcp",
+      "remote" : "any",
+      "via" : "\/usr\/bin\/ssh"
+    }
+  ]
+}

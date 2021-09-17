@@ -1,0 +1,14 @@
+{
+  "description" : "Safe Browsing",
+  "name" : "Safari",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1631887280.1685929,
+      "modificationDate" : 1631887280.1685929,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/SafariSafeBrowsing.framework\/Versions\/A\/com.apple.Safari.SafeBrowsing.Service",
+      "remote-domains" : "safebrowsing.apple"
+    }
+  ]
+}

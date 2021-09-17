@@ -1,0 +1,22 @@
+{
+  "description" : "Allow updates",
+  "name" : "Alfred",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1631887430.5048671,
+      "modificationDate" : 1631887430.5048671,
+      "owner" : "me",
+      "process" : "\/Applications\/Alfred 4.app\/Contents\/MacOS\/Alfred",
+      "remote-domains" : "alfredapp.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1631890040.2403989,
+      "modificationDate" : 1631890040.2403989,
+      "owner" : "me",
+      "process" : "\/Applications\/Alfred 4.app\/Contents\/Preferences\/Alfred Preferences.app\/Contents\/MacOS\/Alfred Preferences",
+      "remote-domains" : "alfredapp.com"
+    }
+  ]
+}

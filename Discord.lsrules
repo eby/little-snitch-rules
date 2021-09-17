@@ -1,0 +1,54 @@
+{
+  "description" : "Discord rules for update and embedded media allowed.",
+  "name" : "Discord",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1631887449.5612249,
+      "modificationDate" : 1631887449.5612249,
+      "owner" : "me",
+      "process" : "\/Applications\/Discord.app\/Contents\/MacOS\/Discord",
+      "remote-domains" : "cloudflare.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1631887432.856854,
+      "modificationDate" : 1631887432.856854,
+      "owner" : "me",
+      "process" : "\/Applications\/Discord.app\/Contents\/MacOS\/Discord",
+      "remote-domains" : "discord.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1631887440.3771071,
+      "modificationDate" : 1631887440.3771071,
+      "owner" : "me",
+      "process" : "\/Applications\/Discord.app\/Contents\/MacOS\/Discord",
+      "remote-domains" : "discord.gg"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1631887463.217397,
+      "modificationDate" : 1631887463.217397,
+      "owner" : "me",
+      "process" : "\/Applications\/Discord.app\/Contents\/MacOS\/Discord",
+      "remote-domains" : "discord.media"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1631889508.3828831,
+      "modificationDate" : 1631889508.3828831,
+      "owner" : "me",
+      "process" : "\/Applications\/Discord.app\/Contents\/MacOS\/Discord",
+      "remote-domains" : "discordapp.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1631887459.1133571,
+      "modificationDate" : 1631887459.1133571,
+      "owner" : "me",
+      "process" : "\/Applications\/Discord.app\/Contents\/MacOS\/Discord",
+      "remote-domains" : "discordapp.net"
+    }
+  ]
+}
