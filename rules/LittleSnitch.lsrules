@@ -1,0 +1,14 @@
+{
+  "description" : "Allow subscriptions from Github",
+  "name" : "LittleSnitch",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1631891209.344873,
+      "modificationDate" : 1631891209.344873,
+      "owner" : "system",
+      "process" : "\/Library\/Application Support\/Objective Development\/Little Snitch\/Components\/at.obdev.littlesnitch.daemon.bundle\/Contents\/XPCServices\/at.obdev.littlesnitch.urldownloader.xpc\/Contents\/MacOS\/at.obdev.littlesnitch.urldownloader",
+      "remote-domains" : "githubusercontent.com"
+    }
+  ]
+}
