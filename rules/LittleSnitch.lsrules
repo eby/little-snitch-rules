@@ -1,14 +1,24 @@
 {
-  "description" : "Allow subscriptions from Github",
+  "description" : "",
   "name" : "LittleSnitch",
   "rules" : [
     {
       "action" : "allow",
-      "creationDate" : 1631891209.344873,
-      "modificationDate" : 1631891209.344873,
-      "owner" : "system",
+      "creationDate" : 1631892167.2316818,
+      "modificationDate" : 1631892167.2316818,
+      "owner" : "any",
       "process" : "\/Library\/Application Support\/Objective Development\/Little Snitch\/Components\/at.obdev.littlesnitch.daemon.bundle\/Contents\/XPCServices\/at.obdev.littlesnitch.urldownloader.xpc\/Contents\/MacOS\/at.obdev.littlesnitch.urldownloader",
       "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1631897922.653693,
+      "modificationDate" : 1631897922.653693,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Little Snitch.app\/Contents\/Components\/Little Snitch Software Update.app\/Contents\/MacOS\/Little Snitch Software Update",
+      "protocol" : "tcp",
+      "remote-domains" : "obdev.at"
     }
   ]
 }
