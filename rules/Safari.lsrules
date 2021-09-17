@@ -1,14 +1,34 @@
 {
-  "description" : "Safe Browsing",
+  "description" : "HTTP\/HTTPS\/Safebrowsing",
   "name" : "Safari",
   "rules" : [
     {
       "action" : "allow",
-      "creationDate" : 1631887280.1685929,
-      "modificationDate" : 1631887280.1685929,
-      "owner" : "me",
+      "creationDate" : 1631891418.2620831,
+      "modificationDate" : 1631891418.2620831,
+      "owner" : "any",
       "process" : "\/System\/Library\/PrivateFrameworks\/SafariSafeBrowsing.framework\/Versions\/A\/com.apple.Safari.SafeBrowsing.Service",
       "remote-domains" : "safebrowsing.apple"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1631892400.175566,
+      "modificationDate" : 1631892400.175566,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1631892286.5851641,
+      "modificationDate" : 1631892286.5851641,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "protocol" : "tcp",
+      "remote" : "any"
     }
   ]
 }
