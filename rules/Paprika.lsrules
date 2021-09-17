@@ -1,0 +1,36 @@
+{
+  "description" : "Paprika Recipe Manager Sync",
+  "name" : "Paprika",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1631893233.3472371,
+      "modificationDate" : 1631893233.3472371,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Paprika Recipe Manager 3.app\/Contents\/MacOS\/Paprika Recipe Manager 3",
+      "protocol" : "tcp",
+      "remote-domains" : "appcenter.ms"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1631893240.8831191,
+      "modificationDate" : 1631893240.8831191,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/Applications\/Paprika Recipe Manager 3.app\/Contents\/MacOS\/Paprika Recipe Manager 3",
+      "protocol" : "tcp",
+      "remote-domains" : "paprikaapp.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1631893222.7552562,
+      "modificationDate" : 1631893222.7552562,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Paprika Recipe Manager 3.app\/Contents\/MacOS\/Paprika Recipe Manager 3",
+      "protocol" : "tcp",
+      "remote-domains" : "paprikaapp.com"
+    }
+  ]
+}
