@@ -1,0 +1,16 @@
+{
+  "description" : "OpenVPN over SSL\/443",
+  "name" : "Tunnelblick",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1631892339.185107,
+      "modificationDate" : 1631892339.185107,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/Applications\/Tunnelblick.app\/Contents\/Resources\/openvpn\/openvpn-2.5.3-openssl-1.1.1l\/openvpn",
+      "protocol" : "tcp",
+      "remote" : "any"
+    }
+  ]
+}
