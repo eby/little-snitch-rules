@@ -1,0 +1,30 @@
+{
+  "description" : "",
+  "name" : "Github Desktop",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1631890154.8811431,
+      "modificationDate" : 1631890154.8811431,
+      "owner" : "me",
+      "process" : "\/Applications\/GitHub Desktop.app\/Contents\/MacOS\/GitHub Desktop",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1631890159.0010219,
+      "modificationDate" : 1631890159.0010219,
+      "owner" : "me",
+      "process" : "\/Applications\/GitHub Desktop.app\/Contents\/MacOS\/GitHub Desktop",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1631890179.4731588,
+      "modificationDate" : 1631890179.4731588,
+      "owner" : "me",
+      "process" : "\/Applications\/GitHub Desktop.app\/Contents\/Frameworks\/GitHub Desktop Helper (Renderer).app\/Contents\/MacOS\/GitHub Desktop Helper (Renderer)",
+      "remote-domains" : "github.com"
+    }
+  ]
+}
